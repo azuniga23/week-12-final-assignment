@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vacation Planner</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <!--Bootstrap style-->
+  <body class="container">
+    <div id="new-destination" class="jumbotron jumbotron-fluid">
+      <div class="jumbotron">
+        <h1 class="display-4">Going on Vacation? Use our Planner app!</h1>
+        <p class="lead">The Number 1 vacation planner on IOS and Andriod</p>
+        <hr class="my-4" />
+        <p>Like us on Facebook, Instagram, or Youtube!</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button"
+            >Follow us on Facebook</a
+          >
+        </p>
+      </div>
+      <!-- CSS stle below-->
+      <center><h1 style="color: rgb(255, 38, 0)">Vacation Planner</h1></center>
+      <input type="text" id="new-destination-name" class="form-control" />
+      <br />
+      <button id="create-new-place" class="btn btn-primary form-control">
+        Add Destination
+      </button>
+    </div>
+
+    <div id="app">
+      <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="index.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </div>
+  </body>
+</html>
